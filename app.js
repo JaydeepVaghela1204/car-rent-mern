@@ -13,7 +13,7 @@ const bookings_routes = require("./api/routes/bookings");
 const cars_routes = require("./api/routes/cars");
 dotenv.config();
 
-const db_uri = process.env.MONGO_URI || "mongodb://localhost:27017";
+const db_uri = process.env.MONGO_URI || "mongodb+srv://jaydeep:jaydeep123@cluster0.6kejhpr.mongodb.net/test";
 
 // MongoDB Connection
 mongoose
